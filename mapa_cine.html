@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71b8b70103de30df807ee1dd1b60208b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_71b8b70103de30df807ee1dd1b60208b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_71b8b70103de30df807ee1dd1b60208b = L.map(
+                "map_71b8b70103de30df807ee1dd1b60208b",
+                {
+                    center: [10.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b0fa6dd13932928bcf0c4788dfb418cb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b0fa6dd13932928bcf0c4788dfb418cb.addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var marker_f6d63b3b124a16aa348e8a448cabfe78 = L.marker(
+                [19.654, -103.46],
+                {
+}
+            ).addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var icon_e227426bf2937b3a290af59297807995 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "#ff1b78",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7650aadbc48db0dd741691f18dfe1c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba334a151c34534b1a790033e456808a = $(`<div id="html_ba334a151c34534b1a790033e456808a" style="width: 100.0%; height: 100.0%;">Pedro Páramo<br>Director: Rodrigo Prieto<br>Año: 2024</div>`)[0];
+                popup_f7650aadbc48db0dd741691f18dfe1c5.setContent(html_ba334a151c34534b1a790033e456808a);
+            
+        
+
+        marker_f6d63b3b124a16aa348e8a448cabfe78.bindPopup(popup_f7650aadbc48db0dd741691f18dfe1c5)
+        ;
+
+        
+    
+    
+            marker_f6d63b3b124a16aa348e8a448cabfe78.bindTooltip(
+                `<div>
+                     Pedro Páramo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f6d63b3b124a16aa348e8a448cabfe78.setIcon(icon_e227426bf2937b3a290af59297807995);
+            
+    
+            var marker_776897764686bf9a0fac5c9501788c46 = L.marker(
+                [46.0737, 25.3687],
+                {
+}
+            ).addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var icon_9e280d24be8049a329ea0d21fdce23b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "#ff1b78",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e05bbe2878299021fadeeae3c31c73f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a39188481896fc3a012f2044cda2397 = $(`<div id="html_0a39188481896fc3a012f2044cda2397" style="width: 100.0%; height: 100.0%;">Hotel Transilvania<br>Director: Genndy Tartakovsky<br>Año: 2012</div>`)[0];
+                popup_3e05bbe2878299021fadeeae3c31c73f.setContent(html_0a39188481896fc3a012f2044cda2397);
+            
+        
+
+        marker_776897764686bf9a0fac5c9501788c46.bindPopup(popup_3e05bbe2878299021fadeeae3c31c73f)
+        ;
+
+        
+    
+    
+            marker_776897764686bf9a0fac5c9501788c46.bindTooltip(
+                `<div>
+                     Hotel Transilvania
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_776897764686bf9a0fac5c9501788c46.setIcon(icon_9e280d24be8049a329ea0d21fdce23b6);
+            
+    
+            var marker_92da3e20cfbfae118a49a4f5c6df5b74 = L.marker(
+                [-12.0464, -77.0428],
+                {
+}
+            ).addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var icon_75f181d8d1e9dbf3e9d0493e218a2f29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "#ff1b78",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92928db4c13c6ddddb5da578fb0aed75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f1d9af6d686d240d2461c6563972c5 = $(`<div id="html_69f1d9af6d686d240d2461c6563972c5" style="width: 100.0%; height: 100.0%;">Rosa Chumbe<br>Director: Jonatan Relayze<br>Año: 2015</div>`)[0];
+                popup_92928db4c13c6ddddb5da578fb0aed75.setContent(html_69f1d9af6d686d240d2461c6563972c5);
+            
+        
+
+        marker_92da3e20cfbfae118a49a4f5c6df5b74.bindPopup(popup_92928db4c13c6ddddb5da578fb0aed75)
+        ;
+
+        
+    
+    
+            marker_92da3e20cfbfae118a49a4f5c6df5b74.bindTooltip(
+                `<div>
+                     Rosa Chumbe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92da3e20cfbfae118a49a4f5c6df5b74.setIcon(icon_75f181d8d1e9dbf3e9d0493e218a2f29);
+            
+    
+            var marker_c070137b55615deeba8d4d1ecfae7ac3 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var icon_8565b9a1e9034b774eefcf91f2ae189a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "#ff1b78",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d84a882aa36cd5c122592055189bf585 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77705b44622c908b6acc079c8ca10d42 = $(`<div id="html_77705b44622c908b6acc079c8ca10d42" style="width: 100.0%; height: 100.0%;">Soul<br>Director: Pete Docter<br>Año: 2020</div>`)[0];
+                popup_d84a882aa36cd5c122592055189bf585.setContent(html_77705b44622c908b6acc079c8ca10d42);
+            
+        
+
+        marker_c070137b55615deeba8d4d1ecfae7ac3.bindPopup(popup_d84a882aa36cd5c122592055189bf585)
+        ;
+
+        
+    
+    
+            marker_c070137b55615deeba8d4d1ecfae7ac3.bindTooltip(
+                `<div>
+                     Soul
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c070137b55615deeba8d4d1ecfae7ac3.setIcon(icon_8565b9a1e9034b774eefcf91f2ae189a);
+            
+    
+            var marker_fae24c725226498684471122141cb329 = L.marker(
+                [25.6866, -100.3161],
+                {
+}
+            ).addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+            var icon_d799476e1ab8d61aa27b72ecd743a166 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "#ff1b78",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_278a54bb4408f9453198c81d898d8914 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48baebb1c6a59f339089ca37b8d08d0b = $(`<div id="html_48baebb1c6a59f339089ca37b8d08d0b" style="width: 100.0%; height: 100.0%;">Radical<br>Director: Christopher Zalla<br>Año: 2023</div>`)[0];
+                popup_278a54bb4408f9453198c81d898d8914.setContent(html_48baebb1c6a59f339089ca37b8d08d0b);
+            
+        
+
+        marker_fae24c725226498684471122141cb329.bindPopup(popup_278a54bb4408f9453198c81d898d8914)
+        ;
+
+        
+    
+    
+            marker_fae24c725226498684471122141cb329.bindTooltip(
+                `<div>
+                     Radical
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fae24c725226498684471122141cb329.setIcon(icon_d799476e1ab8d61aa27b72ecd743a166);
+            
+    
+            tile_layer_b0fa6dd13932928bcf0c4788dfb418cb.addTo(map_71b8b70103de30df807ee1dd1b60208b);
+        
+    
+                marker_f6d63b3b124a16aa348e8a448cabfe78.setIcon(icon_e227426bf2937b3a290af59297807995);
+            
+    
+                marker_776897764686bf9a0fac5c9501788c46.setIcon(icon_9e280d24be8049a329ea0d21fdce23b6);
+            
+    
+                marker_92da3e20cfbfae118a49a4f5c6df5b74.setIcon(icon_75f181d8d1e9dbf3e9d0493e218a2f29);
+            
+    
+                marker_c070137b55615deeba8d4d1ecfae7ac3.setIcon(icon_8565b9a1e9034b774eefcf91f2ae189a);
+            
+    
+                marker_fae24c725226498684471122141cb329.setIcon(icon_d799476e1ab8d61aa27b72ecd743a166);
+            
+</script>
+</html>
