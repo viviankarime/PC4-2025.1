@@ -44,7 +44,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona una página', paginas)
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>print('Blog Mi Experiencia Personal')</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -68,10 +68,10 @@ if pagina_seleccionada == 'Inicio':
     # Las columnas creadas se asignan a las variables col1 y col2.
 
     # En la primera columna colocamos la imagen de perfil
-    col1.image("ellie.png", caption='Aquí puedes escribir una etiqueta debajo de la imagen', width=300)
+    col1.image("foto.jpg", caption='La autora inteligente y sexy de este blog', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
-    # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
+    # La función image toma csomo primer argumento el nombre del archivo de la imagen que se desea mostrar. 
     # En este caso, la imagen es "ellie.png". 
     # El argumento caption se utiliza para proporcionar una etiqueta a la imagen, 
     # en este caso "Aquí puedes escribir una etiqueta debajo de la imagen". 
@@ -82,13 +82,7 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    Holaaaaaaaa, soy Vivian :), publicista en proceso. Al momento en el que escribo esto tengo 19 años, nací el 12 de, igual que Vegetta777. Tengo una perrita llamada Kiki, ella es icónica y tiene una personalidad bien definida (no se deja mandar por nadie 💋). Disfruto estar con las personas que me hacen sentir segura y feliz: mi mamá, mi familia y mis amistades. Me encanta reflexionar sobre aspectos de la vida y ver videos hopecore. Mi artista favorita (y con quien tengo una relación parasocial intensa) es María Becerra. Soy una jubilada de Club Penguin (buenos tiempos). Me gusta bailar, cantar, escuchar música, hacer manualidades, dormir, comer, entre otras cositas lokotronas que me dan vida.
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -117,11 +111,7 @@ elif  pagina_seleccionada == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro? 
+    Al principio no tenía idea de qué trataba el curso, y cuando llegó el primer día y nos explicaron, confieso que me dio miedito: nunca en mi vida había tocado Python. Tenía una vaga idea visual, como esas veces que abres “inspeccionar” en una web y ves un mar de símbolos, palabras raras y números que solo me generaban inquietud. Pensé: ¿cómo voy a sobrevivir a esto? Pero nos fueron guiando paso a paso. Todo comenzó con un humilde print("Hola mundo") y poco a poco la cosa se volvió más laboriosa. A veces tenía que volver a repasar lo básico, pero fui avanzando y ahora me siento orgullosa de lo que aprendí. Si estás leyendo esto, tranqui: respira, no te adelantes con pensamientos negativos y pon atención desde el primer día. Así, por más retador que parezca, vas a ir entendiendo todo con el tiempo ;)
     """
 
     # Mostramos el texto
@@ -137,7 +127,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # En este caso, {texto_2} se reemplaza por el valor de la variable texto.
 
     # Agregamos un subtítulo para el video
-    st.markdown("<h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Material audiovisual nunca antes presentado en los Oscar</h2>", unsafe_allow_html=True)
     
     # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
@@ -150,7 +140,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # Por ejemplo, puedes agregar un emoji de video 🎥 
 
     # Agregamos un video realizado en las practicas anteriores
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://youtu.be/C97J4KRYgnU?si=5xSx96PHr6v8Offd")
 
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -158,7 +148,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # Puedes cambiar la URL por la de tu video en YouTube o en otra plataforma de video.
 
     # O creamos un botón para ir al enlace del video con button
-    st.markdown(f"<div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
+    st.markdown(f"<div style='text-align: center;'><a href='https://youtu.be/C97J4KRYgnU?si=5xSx96PHr6v8Offd' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
 
     # <div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>:
     # Esta es una cadena de código HTML.
@@ -178,10 +168,10 @@ elif  pagina_seleccionada == 'Experiencia':
 else:
 
     # Agregamos un título para la página de gráficos
-    st.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tus gráficos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>A continuación, trazos creativos matemáticos ordenados</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de barras verticales de lenguas aisladas', 'Gráfico de barras horizontales de familias lingüísticas', 'mapa_cusco']
+    graficos = ['Los hashtags más utilizados en videos de TikTok', 'Tipo de contenido más visto en Netfilx', 'Lugares de grabación de mis películas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -195,19 +185,19 @@ else:
     
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico de barras verticales de lenguas aisladas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-        st.image("aisladas_base_datos.png", caption='Gráfico de lenguas aisladas', width=500)
+    if grafico_seleccionado == 'Los hashtags más utilizados en videos de TikTok':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>A partir del artículo titulado 'Analizando videos de TikTok de la campaña de vacunación contra la COVID-19 desde cuentas del sector salud', que tiene como autora a Sofía Pichihua, se realizó un Wordcloud con los hashtags que más se repetían en los videos seleccionados, en donde #essalud, #covid19 y #vacuna fueron los top 3.</div>", unsafe_allow_html=True)
+        st.image("grafico1.png", caption='WordCloud', width=500)
         pass
-    elif grafico_seleccionado == 'Gráfico de barras horizontales de familias lingüísticas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-        st.image("lengua_familia_GB.png", caption='Gráfico de familias lingüísticas', width=500)
+    elif grafico_seleccionado == 'Tipo de contenido más visto en Netfilx':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>En el documento adjunto a la tercera práctica calificada, se elaboró un gráfico de tipo pie chart que mostraba los tipos de contenido más vistos en Netflix. El resultado indicó que Movie (película) obtuvo un mayor porcentaje de visualización en comparación con TV Shows (series de televisión).</div>", unsafe_allow_html=True)
+        st.image("grafico2.png", caption='Tipos de Contenido en Netflix: TV Show y Movie', width=500)
         pass
-    elif grafico_seleccionado == 'mapa_cusco':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+    elif grafico_seleccionado == 'Lugares de grabación de mis películas favoritas':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>El mapa muestra las ubicaciones donde se grabaron mis cinco películas favoritas, junto con sus coordenadas dentro de la diégesis, según corresponda. También incluye el nombre de cada película, su director y el año de estreno. Las películas seleccionadas son las siguientes: Pedro Páramo, Hotel Transilvania, Rosa Chumbe, Radical y Soul.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("mapa_cusco.html", "r", encoding="utf-8") as f:
+        with open("mapa_cine.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
