@@ -82,7 +82,7 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Holaaaaaaaa, soy Vivian :), publicista en proceso. Al momento en el que escribo esto tengo 19 años, nací el 12 de, igual que Vegetta777. Tengo una perrita llamada Kiki, ella es icónica y tiene una personalidad bien definida (no se deja mandar por nadie 💋). Disfruto estar con las personas que me hacen sentir segura y feliz: mi mamá, mi familia y mis amistades. Me encanta reflexionar sobre aspectos de la vida y ver videos hopecore. Mi artista favorita (y con quien tengo una relación parasocial intensa) es María Becerra. Soy una jubilada de Club Penguin (buenos tiempos). Me gusta bailar, cantar, escuchar música, hacer manualidades, dormir, comer, entre otras cositas lokotronas que me dan vida.
+    Holaaaaaaaa, soy Vivian :), publicista en proceso. Al momento en el que escribo esto tengo 19 años, nací el 12 de abril, igual que Vegetta777. Tengo una perrita llamada Kiki, ella es icónica y tiene una personalidad bien definida (no se deja mandar por nadie 💋). Disfruto estar con las personas que me hacen sentir segura y feliz: mi mamá, mi familia y mis amistades. Me encanta reflexionar sobre aspectos de la vida y ver videos hopecore. Mi artista favorita (y con quien tengo una relación parasocial intensa) es María Becerra. Soy una jubilada de Club Penguin (buenos tiempos). Me gusta bailar, cantar, escuchar música, hacer manualidades, dormir, comer, entre otras cositas lokotronas que me dan vida.
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
